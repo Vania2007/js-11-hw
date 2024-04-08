@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let dogImages = {
+        Джек: "images/jack.jpg",
+        Рекс: "images/rex.jpg",
+        Блек: "images/black.jpg",
+        Белка: "images/belka.jpg",
+      };
+      for (let dogName in dogImages) {
+        let imagePath = dogImages[dogName];
+        document.write(`<p><strong>${dogName}</strong></p>`);
+        document.write(`<img src="${imagePath}" alt="${dogName}">`);
+      }
+    </script>
+  </body>
+</html>
