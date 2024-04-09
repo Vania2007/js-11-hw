@@ -1,4 +1,3 @@
-// Get references to DOM elements
 let body = document.querySelector("body"),
   hourHand = document.querySelector(".hour"),
   minuteHand = document.querySelector(".minute"),
