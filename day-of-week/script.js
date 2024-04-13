@@ -13,7 +13,7 @@ let dayNumber = day.getDate();
 if (dayNumber < 10) {
   dayNumber = "0" + dayNumber;
 }
-let month = day.getMonth();
+let month = day.getMonth()+1;
 if (month < 10) {
   month = "0" + month;
 }
